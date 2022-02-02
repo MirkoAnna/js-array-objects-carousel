@@ -45,9 +45,11 @@ for (let i = 0; i < items.length; i++) {
 }
 
 itemsRef.innerHTML = item;
+console.log(item);
 document.getElementsByClassName('item')[active].classList.add('active');
 
 thumbsRef.innerHTML += thumb;
+console.log(thumb);
 document.getElementsByClassName('thumb')[active].classList.add('active');
 
 const prev = document.querySelector('.prev');
